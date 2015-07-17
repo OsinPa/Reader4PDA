@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="mTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/background_item</item>
+        <item name="android:layout_margin">@dimen/title_margin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@drawable/text_item</item>
+    </style>
+
+    <style name="ActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBarBackground</item>
+    </style>
+
+    <style name="ActionBarBackground" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/background_first</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/ActionBarNoTitleText</item>
+    </style>
+
+    <style name="ActionBarNoTitleText">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+</resources>

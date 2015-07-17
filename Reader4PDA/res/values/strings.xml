@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">4PDA Reader</string>
+    <string name="PutIntentUrl">PutIntentUrl</string>
+    <string name="PutIntentCategory">PutIntentCategory</string>
+
+    <string-array name="options">
+        <item>НОВОСТИ</item>
+        <item>СТАТЬИ</item>
+        <item>ОБЗОРЫ</item>
+        <item>ПРОГРАММЫ</item>
+        <item>ИГРЫ</item>
+    </string-array>
+</resources>
